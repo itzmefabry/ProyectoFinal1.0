@@ -71,6 +71,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="menuprincipal.resx">
+      <DependentUpon>menuprincipal.cs</DependentUpon>
     <EmbeddedResource Include="formularioalumno.resx">
       <DependentUpon>formularioalumno.cs</DependentUpon>
     </EmbeddedResource>
