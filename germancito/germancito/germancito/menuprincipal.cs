@@ -30,3 +30,26 @@ namespace germancito
 		}
 	}
 }
+
+void BtnalumnosClick(object sender, EventArgs e)
+		{
+			formularioalumno f = new formularioalumno();
+			f.Show();
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
+		
+		void BtnnumerosClick(object sender, EventArgs e)
+		{
+			numaleatorios f = new numaleatorios();
+			f.Show();
+		}
+		
+		void BtnpromedioClick(object sender, EventArgs e)
+		{
+			promedio f = new promedio();
+			f.Show();
+		}
