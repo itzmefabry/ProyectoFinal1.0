@@ -24,7 +24,7 @@ namespace germancito
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new menuprincipal());
+			Application.Run(new MainForm());
 		}
 		
 	}

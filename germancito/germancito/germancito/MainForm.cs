@@ -29,7 +29,23 @@ namespace germancito
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		// nose
-		bool xd = true;
+		
+		
+		
+		
+		
+		void BtnAccederClick(object sender, EventArgs e)
+		{
+			menuprincipal m = new menuprincipal();
+			if(txtUsuario.Text=="Admin" && txtContraseña.Text=="123")
+			{
+				m.Show();
+				this.Hide();
+					
+			}
+			else{
+				MessageBox.Show("Los datos no son correctos");
+			}
+		}
 	}
 }
