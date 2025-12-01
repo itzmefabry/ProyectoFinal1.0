@@ -80,6 +80,9 @@
     <EmbeddedResource Include="menuprincipal.resx">
       <DependentUpon>menuprincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="numaleatorios.resx">
+      <DependentUpon>numaleatorios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="promedio.resx">
       <DependentUpon>promedio.cs</DependentUpon>
     </EmbeddedResource>
